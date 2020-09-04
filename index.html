@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body >
+    <div class="wrapper fix">
+        <div class="row">
+            <div class="player-1 active">
+                <div class="pname" id="name1">Player1</div>
+                <div class="pscore" id="score1">85</div>
+                <div class="current-box">
+                    <div class="current-label">Current</div>
+                    <div class="current-score" id="current1">11</div>
+                </div>
+            </div>
+            <div class="player-2">
+                <div class="pname" id="name2">Player2</div>
+                <div class="pscore" id="score2">10</div>
+                <div class="current-box">
+                    <div class="current-label">Current</div>
+                    <div class="current-score" id="current2">85</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="player-3">
+                <div class="pname" id="name3">Player3</div>
+                <div class="pscore" id="score3">42</div>
+                <div class="current-box">
+                    <div class="current-label">Current</div>
+                    <div class="current-score" id="current3">9</div>
+                </div>
+            </div>
+            <div class="player-4">
+                <div class="pname" id="name4">Player4</div>
+                <div class="pscore" id="score4">44</div>
+                <div class="current-box">
+                    <div class="current-label">Current</div>
+                    <div class="current-score" id="current4">46</div>
+                </div>
+            </div>
+        </div>
+        
+
+        <button class="btn-new">
+            <i class="ion-ios-plus-outline"></i>
+            <div class="but">New Game</div>
+        </button>
+        <button class="btn-roll">
+            <i class="ion-ios-loop"></i>
+            <div class="but">Roll Dice</div>
+        </button>
+        <button class="btn-hold">
+            <i class="ion-ios-download-outline"></i>
+            <div class="but">Hold</div>
+        </button>
+        <button class="btn-mode">
+            <i class="ion-ios-moon"></i>
+        </button>
+        
+        <div class="trgt">
+            <div class="trgtt">
+                <h1 id='h1'>Target (Default:100)</h1>
+            </div>
+        </div>
+
+        <div class="lastdice">
+            <div class="lastdicee">
+                <h1 id="h2">Last Dice</h1>
+            </div>
+        </div>
+
+        
+
+        <img src="dice-5.png" alt="Dice" class="dice" id="dice1">
+        <img src="dice-5.png" alt="Dice" class="dice" id="dice2">
+
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
